@@ -359,6 +359,7 @@
   .get__the_app {
     display: flex;
     align-items: center;
+    padding-top: 50px;
     justify-content: center;
     background-color: rgb(255, 251, 247);
     width: 100%;
@@ -375,11 +376,13 @@
   }
   
   .get__the_app .semiContainer .left {
-    flex: 2;
+    flex: 1.25;
   }
   
   .get__the_app .semiContainer .left img {
     width: 100%;
+    height: auto;
+    padding-left:40px;
     object-fit: cover;
     object-position: center;
   }
@@ -393,8 +396,8 @@
   }
   
   .right h1 {
-    font-weight: 400;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 2.75rem;
   }
   
   .right p {
@@ -524,6 +527,8 @@
     background-color:#F8F8F8;
     width: 100%;
     padding-top: 50px;
+    padding-left: 122px;
+    padding-right: 122px;
   }
   
   .footer_section1 {
